@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="sky5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2d1b6b"/><stop offset="100%" stop-color="#0d0a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky5)"/>
+  <line x1="60" y1="200" x2="740" y2="200" stroke="#38bdf8" stroke-width="8"/>
+  <line x1="60" y1="400" x2="740" y2="400" stroke="#38bdf8" stroke-width="8"/>
+  <line x1="230" y1="80" x2="570" y2="520" stroke="#facc15" stroke-width="8"/>
+  <circle cx="330" cy="200" r="8" fill="#fff"/>
+  <circle cx="470" cy="400" r="8" fill="#fff"/>
+  <!-- C shape: bottom-right at top intersection down through right side to top-right at bottom intersection -->
+  <path d="M 330 260 L 330 200 L 470 200 L 470 340 L 470 400" fill="none" stroke="#fb923c" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+  <text x="345" y="245" fill="#fb923c" font-size="26" font-weight="900">c°</text>
+  <text x="480" y="370" fill="#fb923c" font-size="26" font-weight="900">d°</text>
+  <text x="400" y="70" fill="#facc15" font-family="Georgia, serif" font-size="30" font-weight="900" text-anchor="middle">Co-Interior Angles = "C" Shape</text>
+  <rect x="230" y="520" width="340" height="56" rx="16" fill="#1e0e45" stroke="#fb923c" stroke-width="3"/>
+  <text x="400" y="556" fill="#fb923c" font-family="monospace" font-size="22" font-weight="900" text-anchor="middle">c° + d° = 180° (Supplementary)</text>
+</svg>

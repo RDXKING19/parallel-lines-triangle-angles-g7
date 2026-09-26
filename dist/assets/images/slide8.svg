@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="portal" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#8b5cf6" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#0d0a2e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sky8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2d1b6b"/><stop offset="100%" stop-color="#0d0a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky8)"/>
+  <circle cx="400" cy="300" r="230" fill="url(#portal)"/>
+  <circle cx="400" cy="300" r="175" fill="none" stroke="#facc15" stroke-width="6" stroke-dasharray="14 8"/>
+  <circle cx="400" cy="300" r="130" fill="none" stroke="#38bdf8" stroke-width="4"/>
+  <!-- protractor icon -->
+  <path d="M 300 340 A 100 100 0 0 1 500 340 Z" fill="#1e0e45" stroke="#facc15" stroke-width="6"/>
+  <line x1="400" y1="340" x2="400" y2="245" stroke="#f43f5e" stroke-width="5"/>
+  <line x1="400" y1="340" x2="470" y2="270" stroke="#4ade80" stroke-width="5"/>
+  <circle cx="400" cy="340" r="7" fill="#fff"/>
+  <text x="400" y="80" fill="#facc15" font-family="Georgia, serif" font-size="32" font-weight="900" text-anchor="middle">Enter the Angle Lab!</text>
+  <text x="400" y="520" fill="#ffffff" font-family="Nunito, sans-serif" font-size="24" font-weight="800" text-anchor="middle">Explore · Measure · Discover</text>
+</svg>
